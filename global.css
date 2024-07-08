@@ -1,0 +1,20 @@
+@import url('./reset.css');
+
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+
+/* *,*::before,*::after{
+    box-sizing: border-box;
+} */
+
+
+:root{
+    --main-lightGray:#EFEFEF;
+    --main-gray:#949494;
+    --main-red:#AE0000;
+    --main-black:#000000;
+}
