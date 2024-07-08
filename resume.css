@@ -10,10 +10,11 @@
 
 .header h1{
     font-size: 128px;
-    line-height: 128px;
-    margin-top: 160px;
-    margin-bottom: 32px;
+    line-height: 192px;
+    padding-top: 160px;
     font-family: var(--main-font-family);
+    font-weight: 400;
+    letter-spacing:0.12em;
 }
 
 .header img{
@@ -25,11 +26,11 @@
 
 .header h2{
     font-size: 128px;
-    line-height: 128px;
+    line-height: 192px;
     text-align: right;
-    margin-top: 34px;
-    margin-bottom: 34px;
     font-family: var(--main-font-family);
+    font-weight: 400;
+    letter-spacing: 0.12em;
 }
 
 
@@ -39,31 +40,32 @@
 
 .article{
     width: 636px;
-    height: 336px;
-    margin: auto;
-    display: flex;
+    /* height: 336px; */
+    /* margin: auto; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    padding-left: 630px;
+    align-items: center; */
+    /* padding-left: 630px; */
+    margin-left: auto;
+    margin-right: 324px;
     padding-top: 48px;
     padding-bottom: 48px;
-
 }
 .article p{
-    text-align: left;
     font-size: 32px;
     line-height: 48px;
     font-family: var(--main-font-family);
-
 }
 
-
+/*1532*/
+/*293*/
 .main_content{
-    max-width: 1920px;
     width: 636px;
     margin: auto;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-right: 636px;
+    padding-bottom: 148px;
+    
 }
 
 .main_content h3{
@@ -71,51 +73,62 @@
     color:var(--main-red);
     font-size: 40px;
     line-height: 60px;
-    margin-top: 40px;
     font-family: var(--main-font-family);
+    margin-top: 76px;
 }
 
+.content_name h3{ 
+    margin-top: 0px;
+}
+
+.content_name li{
+    margin-top: 8px;
+}
 
 .main_content ul{
-    padding-top: 10px;
+    margin-top: 16px;
 }
 
 .main_content li{
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-bottom: 12px;
 }
 
 .main_content p{
     font-size: 24px;
     line-height: 36px;
     font-family: var(--main-font-family);
+
 }
 
 .main_content span{
     color: var(--main-gray);
     font-style: italic;
     font-size: 20px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    font-weight: 400px;
     line-height: 30px;
     font-family: var(--main-font-family);
 }
 
 .footer{
-    max-width: 1920px;
-    width: 100%;
-    height: auto;
-    margin: auto;
+    margin: auto; 
     background-color:var(--main-black);
-    margin-top: 196px;
 }
 
 .social{
-    padding: 64px;
-    text-align: center;
+   padding-top: 64px; 
+   padding-bottom: 64px;/*設在這與設在ul效果一樣，那哪裡比較正確*/
 }
+
+.social ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px
+}
+
 
 .social img{
     width: 64px;
     height: 64px;
-    margin: 10px;
 }
