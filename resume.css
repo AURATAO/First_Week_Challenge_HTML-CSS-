@@ -2,7 +2,7 @@
 
 
 .header{
-    max-width: 1278px;
+    max-width: 1296px;
     width: 100%;
     margin: auto;
    
@@ -36,25 +36,29 @@
 
 .discribtion{
     background: var(--main-lightGray);
+    
 }
 
 .article{
-    width: 636px;
-    /* height: 336px; */
-    /* margin: auto; */
-    /* display: flex;
+    max-width: 1296px;
+    margin: auto;
+    /* margin: auto;
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    /* padding-left: 630px; */
-    margin-left: auto;
-    margin-right: 324px;
+    align-items: center;
+    padding-left: 630px; */
+    
     padding-top: 48px;
     padding-bottom: 48px;
 }
 .article p{
+    width: 636px;
+    height: 336px;
+    margin-left: auto;
     font-size: 32px;
     line-height: 48px;
     font-family: var(--main-font-family);
+
 }
 
 /*1532*/
@@ -65,7 +69,7 @@
     padding-top: 80px;
     padding-right: 636px;
     padding-bottom: 148px;
-    
+
 }
 
 .main_content h3{
