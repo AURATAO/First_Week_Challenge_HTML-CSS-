@@ -1,26 +1,24 @@
 @import url('./global.css');
 
 
-.header{
-    max-width: 1296px;
+.container{
+    padding-top: 160px;
+}
+
+.header, .main_content{
     width: 100%;
-    margin: auto;
-   
+    max-width: 1296px;
+    margin: 0 auto;
 }
 
 .header h1{
     font-size: 128px;
-    line-height: 192px;
-    padding-top: 160px;
-    font-family: var(--main-font-family);
-    font-weight: 400;
     letter-spacing:0.12em;
 }
 
 .header img{
     width: 636px;
     height: 848px;
-    display: block;
     margin:0 auto;
 }
 
@@ -28,15 +26,12 @@
     font-size: 128px;
     line-height: 192px;
     text-align: right;
-    font-family: var(--main-font-family);
-    font-weight: 400;
     letter-spacing: 0.12em;
 }
 
 
 .discribtion{
     background: var(--main-lightGray);
-    
 }
 
 .article{
@@ -47,7 +42,6 @@
     justify-content: center;
     align-items: center;
     padding-left: 630px; */
-    
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -57,7 +51,6 @@
     margin-left: auto;
     font-size: 32px;
     line-height: 48px;
-    font-family: var(--main-font-family);
 
 }
 
@@ -65,9 +58,9 @@
 /*293*/
 .main_content{
     width: 636px;
-    margin: auto;
+    margin-left:312px ;
     padding-top: 80px;
-    padding-right: 636px;
+    /* padding-right: 636px; */ /*remove it if you want to set box sizing*/
     padding-bottom: 148px;
 
 }
@@ -76,9 +69,7 @@
     border-bottom: 3px solid var(--main-red);
     color:var(--main-red);
     font-size: 40px;
-    line-height: 60px;
-    font-family: var(--main-font-family);
-    margin-top: 76px;
+    margin-top: 40px;
 }
 
 .content_name h3{ 
@@ -91,6 +82,7 @@
 
 .main_content ul{
     margin-top: 16px;
+    list-style: none;
 }
 
 .main_content li{
@@ -99,8 +91,6 @@
 
 .main_content p{
     font-size: 24px;
-    line-height: 36px;
-    font-family: var(--main-font-family);
 
 }
 
@@ -109,9 +99,6 @@
     font-style: italic;
     font-size: 20px;
     padding-top: 3px;
-    font-weight: 400px;
-    line-height: 30px;
-    font-family: var(--main-font-family);
 }
 
 .footer{

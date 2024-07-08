@@ -1,11 +1,15 @@
 @import url('./reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 
+html, body{
+    font-family: 'Castoro', serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
 
-.container{
 
-    width: 100%;
-    margin: auto;
+img{
+    display: block; /*remove the  '.'  */
 }
 
 
@@ -16,6 +20,8 @@
     --main-black:#000000;
 }
 
-:root{
-    --main-font-family: 'Castoro', serif;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
