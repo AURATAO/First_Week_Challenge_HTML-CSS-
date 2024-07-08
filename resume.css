@@ -57,15 +57,19 @@
 /*1532*/
 /*293*/
 .main_content{
-    width: 636px;
-    margin-left:312px ;
-    padding-top: 80px;
-    /* padding-right: 636px; */ /*remove it if you want to set box sizing*/
+    max-width: 1296px;
     padding-bottom: 148px;
-
+    padding-top: 80px;
+    margin: auto;
+    /* padding-right: 636px; */ /*remove it if you want to set box sizing*/
 }
 
-.main_content h3{
+.content{
+    width: 636px;
+    margin-left: 0px;
+}
+
+.content h3{
     border-bottom: 3px solid var(--main-red);
     color:var(--main-red);
     font-size: 40px;
