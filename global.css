@@ -1,4 +1,5 @@
 @import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 
 
 .container{
@@ -7,14 +8,14 @@
     margin: auto;
 }
 
-/* *,*::before,*::after{
-    box-sizing: border-box;
-} */
-
 
 :root{
     --main-lightGray:#EFEFEF;
     --main-gray:#949494;
     --main-red:#AE0000;
     --main-black:#000000;
+}
+
+:root{
+    --main-font-family: 'Castoro';
 }
